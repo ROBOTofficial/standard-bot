@@ -25,6 +25,7 @@
     "@eslint/js": "^9.26.0",
     "@jest/globals": "^30.0.0",
     "@jest/types": "^30.0.0",
+    "@standard-schema/spec": "^1.0.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.1",
     "bun": "^1.2.13",
@@ -35,7 +36,8 @@
     "prettier": "^3.5.3",
     "ts-jest": "^29.4.0",
     "tsup": "^8.5.0",
-    "typescript-eslint": "^8.32.0"
+    "typescript-eslint": "^8.32.0",
+    "zod-to-json-schema": "^3.24.6"
   },
   "engines": {
     "node": ">=18.20.8"
