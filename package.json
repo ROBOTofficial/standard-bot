@@ -11,7 +11,8 @@
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
     "check": "tsc --noEmit",
-    "changesets": "npx @changesets/cli"
+    "changesets": "npx @changesets/cli",
+    "prepublishOnly": "bun run build"
   },
   "devDependencies": {
     "@types/bun": "latest"
