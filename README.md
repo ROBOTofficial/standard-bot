@@ -36,3 +36,11 @@ const schema = z.object({
 
 toJsonSchema(schema);
 ```
+
+**Support**
+
+| vendor  | support  |
+| ------- | -------- |
+| Zod     | >=3.24.0 |
+| ArkType | >=2.1    |
+| Valibot | >=1.0.0  |
