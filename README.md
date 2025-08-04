@@ -1,4 +1,4 @@
-# `Standard-bot`
+# `Stanbot`
 
 Validate lib for standard schema.
 

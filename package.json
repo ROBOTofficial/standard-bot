@@ -1,5 +1,5 @@
 {
-  "name": "standard-bot",
+  "name": "stanbot",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "type": "module",
