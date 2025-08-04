@@ -37,7 +37,7 @@ const schema = z.object({
 toJsonSchema(schema);
 ```
 
-**Support**
+**\*Schemas for libraries not listed in support cannot be used with the toJsonSchema**
 
 | vendor  | support  |
 | ------- | -------- |
