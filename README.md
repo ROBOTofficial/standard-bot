@@ -1,20 +1,38 @@
-# TypeScript Template
+# `Standard-bot`
 
-This template was created to facilitate the creation of typescript projects.
+Validate lib for standard schema.
 
-## Libs
+## Usage
 
-- Bun (Package Manager)
-- TypeScript
-- ESlint
-- Prettier
-- Changesets
-- Jest
-- Tsup
+### Validater
 
-## Settings
+```ts
+import { s } from "standard-bot";
+import { z } from "zod";
 
-- [Dependa Bot](./.github/dependabot.yml)
-- [CI Test](./.github/workflows/ci.yml)
-- [Changesets release](./.github/workflows/release.yml)
-- [Visual Studio Code](./.vscode/launch.json)
+const schema = z.object({
+  foo: z.string(),
+  bar: z.number()
+});
+
+const value = {
+  foo: "Hello World!!",
+  bar: 1234567890
+};
+
+s(schema).validate(value);
+```
+
+### toJsonSchema
+
+```ts
+import { toJsonSchema } from "standard-bot";
+import { z } from "zod";
+
+const schema = z.object({
+  foo: z.string(),
+  bar: z.number()
+});
+
+toJsonSchema(schema);
+```
